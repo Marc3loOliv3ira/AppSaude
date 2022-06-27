@@ -1,0 +1,244 @@
+/*geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+span {
+    margin-right: 10px;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #009688;
+    border: 2px solid #5F9EA0;
+}
+
+.btn-primary:hover {
+    background-color: #66CDAA;
+    border-color: #66CDAA;
+}
+
+.msg {
+    background-color: #d4edda;
+    color:#155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/*navbar */
+
+/* search */
+.search-container{
+    padding-left: 33rem;
+    width: 80%;
+}
+
+
+/*pacientes list*/
+#pacients-conteiner {
+    padding-left: 15rem;
+}
+
+#pacients-conteiner h2 {
+    margin-bottom: 10px;
+}
+
+#pacients-conteiner .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+input[type=radio] {
+    margin: 0;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+}
+
+table {
+    margin-top: -20px;
+}
+
+[aria-disabled="true"] {
+    opacity: 0.5;
+  }
+
+#teste table {
+    margin: 0;
+}
+
+/* form create */
+
+#form-create-container p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#form-create-container input,
+#form-create-container select,
+#form-create-container textarera {
+    font-size: 14px;
+}
+
+#medicamento-form input {
+    border: none;
+    margin: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+/* show pacient */
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+}
+
+#info-container a {
+    margin-top: 20px;
+}
+
+.form-container form {
+    display: inline-block;
+}
+
+/*teste*/
+.form-control {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#button-search {
+    margin-top: 80px;
+}
+
+#novo-paciente {
+    width: 100%;
+    max-width: 185px;
+    margin: 0 auto; 
+    margin-top: 5%;
+}
+
+@media only screen and (max-device-width: 2560px) {
+
+
+     
+}
+
+@media only screen and (max-device-width: 1440px) {
+
+  
+     
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+ 
+     
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    #pacients-conteiner {
+        padding-left: 0px;
+    }
+  
+     
+}
+
+@media only screen and (max-device-width: 425px) {
+
+    #pacients-conteiner {
+        padding-left: 0px;
+    }
+
+
+}
+
+@media only screen and (max-device-width: 375px) {
+
+    #pacients-conteiner {
+        padding-left: 0px;
+    }
+  
+
+}
+
+@media only screen and (max-device-width: 320px) {
+
+    #pacients-conteiner {
+        padding-left: 0px;
+    }
+
+
+}
+
+
+
+
+
+#eye {
+    background-color: #F2A340;
+    border: 2px solid #C28008;
+  }
+  
+#eye:hover {
+    background-color: #C28008;
+    border-color: #C28008;
+  }
